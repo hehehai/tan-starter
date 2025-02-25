@@ -2,8 +2,6 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "@tanstack/start/config";
 import tsConfigPaths from "vite-tsconfig-paths";
 
-import "./lib/utils/env.server";
-
 export default defineConfig({
 	vite: {
 		plugins: [
